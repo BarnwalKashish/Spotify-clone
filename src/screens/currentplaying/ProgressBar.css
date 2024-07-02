@@ -1,0 +1,27 @@
+.progress-bar {
+    margin-top: -108px;
+  }
+  
+  .song-progress {
+    cursor: pointer;
+    width: 340px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #ccc;
+    overflow: hidden;
+    margin-left: -20px;
+  }
+  
+  .song-progress::-webkit-progress-bar {
+    background-color: var(--sidebar-bg-color);
+  }
+  
+  .song-progress::-webkit-progress-value {
+    background-color: #ccc;
+  }
+  
+  .song-progress::-moz-progress-bar {
+    background-color: #555;
+  }
+
+  

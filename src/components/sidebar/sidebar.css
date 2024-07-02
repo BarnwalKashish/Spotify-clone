@@ -1,0 +1,42 @@
+.sidebar-container {
+    width: 420px;
+    height: 856px;
+    position: absolute;
+    top: 40px;
+    left: 280px;
+    gap: 0px;
+    opacity: 1; 
+    /* background-color: rgb(91, 87, 115); */
+    background-color: transparent;
+    padding: 20px; /* Padding for the sidebar */
+    box-sizing: border-box; /* Ensures padding is included in the total width and height *//* Allows scrolling if content overflows */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Adjusts the vertical alignment of the content */
+    align-items: flex-start;
+    transition: all 0.2s ease;
+    /* overflow-y: auto;
+    max-height: 600px; */
+  }
+  /* .sidebar-container:-webkit-scrollbar {
+    display: none; 
+  }
+
+  .sidebar-container {
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+  } */
+
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    margin: -55px 0 0 -18px; /* Adjust the top margin as needed */
+    padding: 0; 
+    z-index: 1;/* No padding */
+  }
+  
+
+  /* .sidebar-container {
+    background-color: var(--sidebar-bg-color);
+  } */
+ 

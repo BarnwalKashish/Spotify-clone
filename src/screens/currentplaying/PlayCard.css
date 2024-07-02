@@ -1,0 +1,69 @@
+.playcard {
+    position: absolute;
+    width: 300px; 
+    height: 480px; 
+    top: 85px;
+    left: 860px;
+    padding: 20px;
+    gap: 32px;
+    opacity: 0;
+    background-color: transparent; 
+    border-radius: 0px;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .playcard.show {
+    opacity: 1;
+  }
+  
+  .playcard-details {
+    margin-top: -35px;
+    margin-left: -20px; 
+  }
+  
+  .playcard-details h3 {
+    margin: 0;
+    font-size: 24px;
+    color: white;
+    text-align: left;
+    margin-top: 10px; 
+    margin-left: 0px; 
+  }
+  
+  .playcard-details p {
+    margin: 4px 0 0; 
+    font-size: 10px;
+    color: #777;
+    text-align: left; 
+    margin-top: 0px;
+    margin-left: 0px; 
+  }
+  
+  .playcard-cover img {
+    width: 340px;
+    height: 345px;
+    object-fit: cover; 
+    border-radius: 5px;
+    margin-left: -20px; 
+    margin-top: 15px;
+    margin-bottom: 25px;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+  }
+
+  .playcard-cover img:hover {
+    transform: scale(1.05);
+  }
+  .playcard.show {
+    background-color: var(--card-bg-color);
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

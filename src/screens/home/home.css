@@ -1,0 +1,46 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden; 
+  }
+.main-body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 856px;
+    width: 100vw;
+    flex-direction: column;
+    background: linear-gradient(rgba(0, 0, 0, 1), transparent);
+    background-color: rgb(91, 87, 115);
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    flex-wrap:wrap;
+  }
+  .spotify-logo {
+    position: absolute;
+    width: 133.41px;
+    height: 40px;
+    top: 32px;
+    left: 32px;
+    padding: 0.47px 0.94px 0.12px 0.94px;
+    gap: 0px;
+    opacity: 1; 
+  }
+  .spotify-logo:hover {
+    transform: scale(1.1); 
+    opacity: 0.8; 
+  }
+  .profile-picture {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: calc(100vh - 80px);
+    left: 32px;
+    gap: 0px;
+    opacity: 1; 
+  }
+
+  
+
+  

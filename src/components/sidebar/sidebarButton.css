@@ -1,0 +1,36 @@
+  .button {
+    flex: 1;
+    padding: 10px;
+    margin: 0;
+    margin-right: 15px;
+    color: #666666;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none; 
+    display: inline-block;
+    font-weight: bold;
+    font-size: 25px;
+    white-space: nowrap;
+    transition: all 0.5s ease;
+  }
+  .button:hover {
+    transform: scale(1.05);
+  }
+  .button.active {
+    color: white;
+   
+  transform: scale(1.1);
+  }
+  
+  .buttons .button:first-child {
+    margin-left: 0; 
+  }
+  
+  .buttons .button:last-child {
+    margin-right: 0;
+  }
+
+  
